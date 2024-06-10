@@ -1,14 +1,14 @@
+import json
+import logging
 from langchain_community.document_loaders import YoutubeLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_google_vertexai import VertexAI
 from langchain.chains.summarize import load_summarize_chain
 from langchain.prompts import PromptTemplate
-from vertexai.generative_models import GenerativeModel
-from tqdm import tqdm
-import json
-import logging
 from langchain_core.output_parsers import JsonOutputParser
 from langchain_core.pydantic_v1 import BaseModel, Field
+from vertexai.generative_models import GenerativeModel
+from tqdm import tqdm
 
 # Configure log
 logging.basicConfig(level=logging.INFO)
