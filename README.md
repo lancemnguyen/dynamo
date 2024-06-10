@@ -10,7 +10,7 @@ The DynamoCards project integrates frontend and backend technologies to efficien
 - **User-Friendly Interface**: Manage and interact with parsed data through an intuitive React-based frontend.
 - **Flashcard Management**: Generate and handle flashcards for key concepts, enhancing study habits and information retention.
 
-## AI Technologies Used
+## Tech Stack
 - **Google Cloud**: Used for setting up and managing the cloud environment for the project.
 - **FastAPI**: Backend framework to handle video analysis and API endpoints.
 - **Langchain**: Utilized for retrieving video transcripts and integrating generative AI functionalities.
