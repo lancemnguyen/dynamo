@@ -113,7 +113,6 @@ class YoutubeProcessor:
                 group_content += doc.page_content
 
             # Prompt for finding concepts
-            # You are an expert JSON parser who outparses the response in JSON in order to store the response in a jsonl file. Do not add ```json ``` or any backticks in your response that would mess up the JSON parsing. You cannot give any errors when you process the concepts and definitions for a jsonl file. The response format must be exactly like the following example:
             prompt = PromptTemplate(
                 template = """
                 Find and define key concepts or terms found in the text:
