@@ -52,7 +52,7 @@ pip install -r requirements.txt
 cd frontend
 npm create vite@latest dynamocards
 ```
-Select React and JavaScript
+- Select React and JavaScript
 ```bash
 cd dynamocards
 npm install
