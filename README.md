@@ -5,9 +5,9 @@ The DynamoCards project integrates frontend and backend technologies to efficien
 
 ## Features
 - **Youtube Transcript Retrieval & Summarization**: Streamlines the parsing of lengthy YouTube transcripts and converts it into concise summaries to identify and organize key concepts and terms.
+- **Flashcard Management**: Generate and handle flashcards for key concepts, enhancing study habits and information retention.
 - **Frontend-Backend Integration**: Seamless communication between frontend and backend to handle video analysis and display results.
 - **User-Friendly Interface**: Manage and interact with parsed data through an intuitive React-based frontend.
-- **Flashcard Management**: Generate and handle flashcards for key concepts, enhancing study habits and information retention.
 
 ## Tech Stack
 - **Google Cloud**: Used for setting up and managing the cloud environment for the project.
