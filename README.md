@@ -1,7 +1,7 @@
 # Gemini Dynamo
 
 ## Overview
-The DynamoCards project integrates frontend and backend technologies to efficiently parse and organize lengthy YouTube transcripts, revolutionizing study processes and enhancing digital learning experiences. By leveraging advanced AI and semantic extraction algorithms, the tool helps students and educators distill hours of lecture material into concise, digestible insights.
+The Gemini Dynamo project integrates frontend and backend technologies to efficiently parse and organize lengthy YouTube transcripts, revolutionizing study processes and enhancing digital learning experiences. By leveraging advanced AI and semantic extraction algorithms, the tool helps students and educators distill hours of lecture material into concise, digestible insights.
 
 ## Features
 - **Youtube Transcript Retrieval & Summarization**: Streamlines the parsing of lengthy YouTube transcripts and converts it into concise summaries to identify and organize key concepts and terms.
