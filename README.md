@@ -1,28 +1,20 @@
 # Gemini Dynamo
 
-## Overview
-The Gemini Dynamo project integrates frontend and backend technologies to efficiently parse and organize lengthy YouTube transcripts, revolutionizing study processes and enhancing digital learning experiences. By leveraging advanced AI and semantic extraction algorithms, the tool helps students and educators distill hours of lecture material into concise, digestible insights.
+Gemini Dynamo generates flashcards from YouTube transcripts, revolutionizing study processes and enhancing digital learning experiences. By leveraging advanced AI and semantic extraction algorithms, the tool helps students and educators distill hours of lecture material into concise, digestible insights.
+
+Tech stack: GCP (Vertex AI), FastAPI, Langchain, React
 
 ## Features
-- **Youtube Transcript Retrieval & Summarization**: Streamlines the parsing of lengthy YouTube transcripts and converts it into concise summaries to identify and organize key concepts and terms.
-- **Flashcard Management**: Generate and handle flashcards for key concepts, enhancing study habits and information retention.
-- **Frontend-Backend Integration**: Seamless communication between frontend and backend to handle video analysis and display results.
-- **User-Friendly Interface**: Manage and interact with parsed data through an intuitive React-based frontend.
+- **Youtube Transcript Retrieval & Summarization**: Parses YouTube transcripts and converts them into concise summaries to identify key concepts.
+- **Flashcard Management**: Generates flashcards for key concepts
+- **Frontend-Backend Integration**: Frontend displays flashcards and backend handles video analysis.
 
-## Tech Stack
-- **Google Cloud**: Used for setting up and managing the cloud environment for the project.
-- **FastAPI**: Backend framework to handle video analysis and API endpoints.
-- **Langchain**: Utilized for retrieving video transcripts and integrating generative AI functionalities.
-- **Vertex AI**: Employed in generating document summaries and extracting key concepts.
-- **React**: Frontend framework to create a user-friendly interface for managing parsed data and flashcards.
-
-## Installation
-Prerequisites
+## Prerequisites
 - Python 3.7 or higher
 - Node.js and npm (for React frontend)
 - Google Cloud account with Vertex AI enabled
 
-Setup Instructions
+## Setup
 1. Clone the Repository
 ```bash
 git clone https://github.com/lancegosu/dynamo.git
